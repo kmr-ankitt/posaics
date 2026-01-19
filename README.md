@@ -12,3 +12,19 @@ built out of thousands of other tiny pictures.
 - [ ] Calculate the average color of each source image
 
 <img src="https://robertheaton.com/images/mosaic-plan.png" alt="Mosaic Plan" style="max-width:100%;height:auto;">
+
+## Building
+
+To clone the repository, and `cd` into it:
+
+```bash
+git clone https://github.com/kmr-ankitt/posaics
+```
+
+## Running
+
+To run the project, use the following command:
+
+```bash
+uv run src/main.py example/jonsnow.jpg
+```
